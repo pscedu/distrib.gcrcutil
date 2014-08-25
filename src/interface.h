@@ -34,6 +34,8 @@
 #ifndef CRCUTIL_INTERFACE_H_
 #define CRCUTIL_INTERFACE_H_
 
+#include <stdint.h>
+
 #include "std_headers.h"    // size_t
 
 namespace crcutil_interface {
