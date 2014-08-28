@@ -1,7 +1,11 @@
 /* $Id$ */
 
+#include <stdint.h>
+
 #include "std_headers.h"
 #include "interface.h"
+
+#include "pfl/crc.h"
 
 extern "C" {
 

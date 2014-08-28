@@ -14,5 +14,6 @@ SRCS+=		${GCRC_BASE}/multiword_64_64_cl_i386_mmx.cc
 SRCS+=		${GCRC_BASE}/multiword_64_64_gcc_amd64_asm.cc
 SRCS+=		${GCRC_BASE}/multiword_64_64_gcc_i386_mmx.cc
 SRCS+=		${GCRC_BASE}/multiword_64_64_intrinsic_i386_mmx.cc
+CFLAGS+=	-mcrc32 
 
 include ${MAINMK}

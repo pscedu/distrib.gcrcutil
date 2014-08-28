@@ -39,7 +39,7 @@
 namespace crcutil_interface {
 
 // Many projects define their own uint64. Do it here.
-typedef unsigned long long UINT64;
+typedef uint64_t UINT64;
 
 class CRC {
  public:
